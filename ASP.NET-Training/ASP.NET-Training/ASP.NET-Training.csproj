@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Training\WebServerControl\HyperlinkControl.aspx" />
     <Content Include="Training\WebServerControl\ImageControl.aspx" />
+    <Content Include="Training\WebServerControl\TextBoxControl.aspx" />
     <Content Include="Training\WebServerControl\ViewControl.aspx" />
     <Content Include="Training\WebForm1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -218,6 +219,13 @@
     </Compile>
     <Compile Include="Training\WebServerControl\ImageControl.aspx.designer.cs">
       <DependentUpon>ImageControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\TextBoxControl.aspx.cs">
+      <DependentUpon>TextBoxControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\TextBoxControl.aspx.designer.cs">
+      <DependentUpon>TextBoxControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\ViewControl.aspx.cs">
       <DependentUpon>ViewControl.aspx</DependentUpon>
