@@ -124,7 +124,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Training\WebServerControl\HyperlinkControl.aspx" />
+    <Content Include="Training\WebServerControl\ImageControl.aspx" />
+    <Content Include="Training\WebServerControl\ViewControl.aspx" />
+    <Content Include="Training\WebForm1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -202,6 +205,27 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Training\WebServerControl\HyperlinkControl.aspx.cs">
+      <DependentUpon>HyperlinkControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\HyperlinkControl.aspx.designer.cs">
+      <DependentUpon>HyperlinkControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ImageControl.aspx.cs">
+      <DependentUpon>ImageControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ImageControl.aspx.designer.cs">
+      <DependentUpon>ImageControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ViewControl.aspx.cs">
+      <DependentUpon>ViewControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ViewControl.aspx.designer.cs">
+      <DependentUpon>ViewControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -209,11 +233,11 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
+    <Compile Include="Training\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
+    <Compile Include="Training\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
