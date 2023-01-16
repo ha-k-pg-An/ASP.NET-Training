@@ -124,6 +124,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Training\WebServerControl\AutoPostBack.aspx" />
     <Content Include="Training\WebServerControl\HyperlinkControl.aspx" />
     <Content Include="Training\WebServerControl\ImageControl.aspx" />
     <Content Include="Training\WebServerControl\TextBoxControl.aspx" />
@@ -205,6 +206,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\AutoPostBack.aspx.cs">
+      <DependentUpon>AutoPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\AutoPostBack.aspx.designer.cs">
+      <DependentUpon>AutoPostBack.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\HyperlinkControl.aspx.cs">
       <DependentUpon>HyperlinkControl.aspx</DependentUpon>
