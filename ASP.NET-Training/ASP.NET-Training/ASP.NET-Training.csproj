@@ -128,6 +128,7 @@
     <Content Include="Training\WebServerControl\HyperlinkControl.aspx" />
     <Content Include="Training\WebServerControl\ImageControl.aspx" />
     <Content Include="Training\WebServerControl\TextBoxControl.aspx" />
+    <Content Include="Training\WebServerControl\TextBoxHtml5Input.aspx" />
     <Content Include="Training\WebServerControl\ViewControl.aspx" />
     <Content Include="Training\WebForm1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -234,6 +235,13 @@
     </Compile>
     <Compile Include="Training\WebServerControl\TextBoxControl.aspx.designer.cs">
       <DependentUpon>TextBoxControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\TextBoxHtml5Input.aspx.cs">
+      <DependentUpon>TextBoxHtml5Input.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\TextBoxHtml5Input.aspx.designer.cs">
+      <DependentUpon>TextBoxHtml5Input.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\ViewControl.aspx.cs">
       <DependentUpon>ViewControl.aspx</DependentUpon>
