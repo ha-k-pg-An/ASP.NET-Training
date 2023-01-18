@@ -125,6 +125,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Training\WebServerControl\AutoPostBack.aspx" />
+    <Content Include="Training\WebServerControl\CheckBoxControl.aspx" />
     <Content Include="Training\WebServerControl\HyperlinkControl.aspx" />
     <Content Include="Training\WebServerControl\ImageControl.aspx" />
     <Content Include="Training\WebServerControl\TextBoxControl.aspx" />
@@ -214,6 +215,13 @@
     </Compile>
     <Compile Include="Training\WebServerControl\AutoPostBack.aspx.designer.cs">
       <DependentUpon>AutoPostBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\CheckBoxControl.aspx.cs">
+      <DependentUpon>CheckBoxControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\CheckBoxControl.aspx.designer.cs">
+      <DependentUpon>CheckBoxControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\HyperlinkControl.aspx.cs">
       <DependentUpon>HyperlinkControl.aspx</DependentUpon>
