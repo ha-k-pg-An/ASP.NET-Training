@@ -125,6 +125,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Training\WebServerControl\AutoPostBack.aspx" />
+    <Content Include="Training\WebServerControl\ButtonCommand.aspx" />
+    <Content Include="Training\WebServerControl\ButtonControl.aspx" />
     <Content Include="Training\WebServerControl\CalendarControl.aspx" />
     <Content Include="Training\WebServerControl\CheckBoxControl.aspx" />
     <Content Include="Training\WebServerControl\FileUploadControl.aspx" />
@@ -219,6 +221,20 @@
     </Compile>
     <Compile Include="Training\WebServerControl\AutoPostBack.aspx.designer.cs">
       <DependentUpon>AutoPostBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ButtonCommand.aspx.cs">
+      <DependentUpon>ButtonCommand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ButtonCommand.aspx.designer.cs">
+      <DependentUpon>ButtonCommand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ButtonControl.aspx.cs">
+      <DependentUpon>ButtonControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\ButtonControl.aspx.designer.cs">
+      <DependentUpon>ButtonControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\CalendarControl.aspx.cs">
       <DependentUpon>CalendarControl.aspx</DependentUpon>
