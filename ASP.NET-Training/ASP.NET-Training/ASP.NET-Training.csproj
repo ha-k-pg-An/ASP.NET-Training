@@ -130,6 +130,7 @@
     <Content Include="Training\WebServerControl\HyperlinkControl.aspx" />
     <Content Include="Training\WebServerControl\ImageControl.aspx" />
     <Content Include="Training\WebServerControl\ListControl.aspx" />
+    <Content Include="Training\WebServerControl\MultipleFileUpload.aspx" />
     <Content Include="Training\WebServerControl\TextBoxControl.aspx" />
     <Content Include="Training\WebServerControl\TextBoxHtml5Input.aspx" />
     <Content Include="Training\WebServerControl\ViewControl.aspx" />
@@ -252,6 +253,13 @@
     </Compile>
     <Compile Include="Training\WebServerControl\ListControl.aspx.designer.cs">
       <DependentUpon>ListControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\WebServerControl\MultipleFileUpload.aspx.cs">
+      <DependentUpon>MultipleFileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\WebServerControl\MultipleFileUpload.aspx.designer.cs">
+      <DependentUpon>MultipleFileUpload.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\TextBoxControl.aspx.cs">
       <DependentUpon>TextBoxControl.aspx</DependentUpon>
