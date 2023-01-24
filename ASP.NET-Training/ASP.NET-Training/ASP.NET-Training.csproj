@@ -124,6 +124,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Training\ValidationControl\BasicValidation.aspx" />
+    <Content Include="Training\ValidationControl\RangeValidatorControl.aspx" />
+    <Content Include="Training\ValidationControl\RequiredFieldValidator.aspx" />
     <Content Include="Training\WebServerControl\AutoPostBack.aspx" />
     <Content Include="Training\WebServerControl\ButtonCommand.aspx" />
     <Content Include="Training\WebServerControl\ButtonControl.aspx" />
@@ -214,6 +217,27 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\BasicValidation.aspx.cs">
+      <DependentUpon>BasicValidation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\BasicValidation.aspx.designer.cs">
+      <DependentUpon>BasicValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\RangeValidatorControl.aspx.cs">
+      <DependentUpon>RangeValidatorControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\RangeValidatorControl.aspx.designer.cs">
+      <DependentUpon>RangeValidatorControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\RequiredFieldValidator.aspx.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\RequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\AutoPostBack.aspx.cs">
       <DependentUpon>AutoPostBack.aspx</DependentUpon>
