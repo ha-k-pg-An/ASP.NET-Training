@@ -130,6 +130,7 @@
     <Content Include="Training\ValidationControl\RangeValidatorControl.aspx" />
     <Content Include="Training\ValidationControl\RegularExpressionValidatorControl.aspx" />
     <Content Include="Training\ValidationControl\RequiredFieldValidator.aspx" />
+    <Content Include="Training\ValidationControl\ValidationSummaryControl.aspx" />
     <Content Include="Training\WebServerControl\AutoPostBack.aspx" />
     <Content Include="Training\WebServerControl\ButtonCommand.aspx" />
     <Content Include="Training\WebServerControl\ButtonControl.aspx" />
@@ -262,6 +263,13 @@
     </Compile>
     <Compile Include="Training\ValidationControl\RequiredFieldValidator.aspx.designer.cs">
       <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\ValidationSummaryControl.aspx.cs">
+      <DependentUpon>ValidationSummaryControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\ValidationSummaryControl.aspx.designer.cs">
+      <DependentUpon>ValidationSummaryControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\WebServerControl\AutoPostBack.aspx.cs">
       <DependentUpon>AutoPostBack.aspx</DependentUpon>
