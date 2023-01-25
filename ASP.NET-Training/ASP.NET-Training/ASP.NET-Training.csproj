@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Training\ValidationControl\BasicValidation.aspx" />
     <Content Include="Training\ValidationControl\CompareValidatorControl.aspx" />
+    <Content Include="Training\ValidationControl\CustomValidator.aspx" />
     <Content Include="Training\ValidationControl\RangeValidatorControl.aspx" />
     <Content Include="Training\ValidationControl\RegularExpressionValidatorControl.aspx" />
     <Content Include="Training\ValidationControl\RequiredFieldValidator.aspx" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="Training\ValidationControl\CompareValidatorControl.aspx.designer.cs">
       <DependentUpon>CompareValidatorControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\CustomValidator.aspx.cs">
+      <DependentUpon>CustomValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\CustomValidator.aspx.designer.cs">
+      <DependentUpon>CustomValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\ValidationControl\RangeValidatorControl.aspx.cs">
       <DependentUpon>RangeValidatorControl.aspx</DependentUpon>
