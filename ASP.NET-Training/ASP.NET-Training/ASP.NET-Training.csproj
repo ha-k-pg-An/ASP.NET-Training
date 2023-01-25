@@ -125,6 +125,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Training\ValidationControl\BasicValidation.aspx" />
+    <Content Include="Training\ValidationControl\ButtonCausesValidation.aspx" />
+    <Content Include="Training\ValidationControl\ButtonValidationGroup.aspx" />
     <Content Include="Training\ValidationControl\CompareValidatorControl.aspx" />
     <Content Include="Training\ValidationControl\CustomValidator.aspx" />
     <Content Include="Training\ValidationControl\RangeValidatorControl.aspx" />
@@ -228,6 +230,20 @@
     </Compile>
     <Compile Include="Training\ValidationControl\BasicValidation.aspx.designer.cs">
       <DependentUpon>BasicValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\ButtonCausesValidation.aspx.cs">
+      <DependentUpon>ButtonCausesValidation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\ButtonCausesValidation.aspx.designer.cs">
+      <DependentUpon>ButtonCausesValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\ValidationControl\ButtonValidationGroup.aspx.cs">
+      <DependentUpon>ButtonValidationGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\ValidationControl\ButtonValidationGroup.aspx.designer.cs">
+      <DependentUpon>ButtonValidationGroup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\ValidationControl\CompareValidatorControl.aspx.cs">
       <DependentUpon>CompareValidatorControl.aspx</DependentUpon>
