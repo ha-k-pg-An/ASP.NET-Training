@@ -124,6 +124,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Training\UserControl\TimeUserControl.ascx" />
+    <Content Include="Training\UserControl\UserControlSample.aspx" />
     <Content Include="Training\ValidationControl\BasicValidation.aspx" />
     <Content Include="Training\ValidationControl\ButtonCausesValidation.aspx" />
     <Content Include="Training\ValidationControl\ButtonValidationGroup.aspx" />
@@ -223,6 +225,20 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Training\UserControl\TimeUserControl.ascx.cs">
+      <DependentUpon>TimeUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\UserControl\TimeUserControl.ascx.designer.cs">
+      <DependentUpon>TimeUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\UserControl\UserControlSample.aspx.cs">
+      <DependentUpon>UserControlSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\UserControl\UserControlSample.aspx.designer.cs">
+      <DependentUpon>UserControlSample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\ValidationControl\BasicValidation.aspx.cs">
       <DependentUpon>BasicValidation.aspx</DependentUpon>

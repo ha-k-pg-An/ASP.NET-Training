@@ -1,0 +1,53 @@
+﻿//------------------------------------------------------------------------------
+// <自動生成>
+//     このコードはツールによって生成されました。
+//
+//     このファイルへの変更は、正しくない動作の原因になる可能性があり、
+//     コードが再生成されるときに損失したりします。 
+// </自動生成>
+//------------------------------------------------------------------------------
+
+namespace ASP.NET_Training.Training.UserControl
+{
+
+
+    public partial class TimeUserControl
+    {
+
+        /// <summary>
+        /// HourTextBox コントロール。
+        /// </summary>
+        /// <remarks>
+        /// 自動生成されたフィールド。
+        /// 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox HourTextBox;
+
+        /// <summary>
+        /// MinuteTextBox コントロール。
+        /// </summary>
+        /// <remarks>
+        /// 自動生成されたフィールド。
+        /// 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox MinuteTextBox;
+
+        /// <summary>
+        /// RangeValidator1 コントロール。
+        /// </summary>
+        /// <remarks>
+        /// 自動生成されたフィールド。
+        /// 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+
+        /// <summary>
+        /// RangeValidator2 コントロール。
+        /// </summary>
+        /// <remarks>
+        /// 自動生成されたフィールド。
+        /// 変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator2;
+    }
+}
