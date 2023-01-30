@@ -128,6 +128,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Training\Basic\GirdViewSample.aspx" />
     <Content Include="Training\UserControl\TimeUserControl.ascx" />
     <Content Include="Training\UserControl\UserControlSample.aspx" />
     <Content Include="Training\ValidationControl\BasicValidation.aspx" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Training\Basic\GirdViewSample.aspx.cs">
+      <DependentUpon>GirdViewSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\Basic\GirdViewSample.aspx.designer.cs">
+      <DependentUpon>GirdViewSample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Training\UserControl\TimeUserControl.ascx.cs">
       <DependentUpon>TimeUserControl.ascx</DependentUpon>
