@@ -20,7 +20,7 @@
 
             <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
             <br/><br/>
-            <asp:Button ID="Button1" runat="server" Text="編集" CommandName="Edit" OnCommand="Button1_Command" />
+            <asp:Button ID="Button1" runat="server" Text="編集" CommandName="Edit" OnCommand="Button1_Command" Width="157px" />
             <br/><br/>
             <asp:Button ID="Button2" runat="server" Text="並び替え（昇順）" CommandName="Sort" CommandArgument="Asc" OnCommand="Button1_Command" />
             <br/><br/>

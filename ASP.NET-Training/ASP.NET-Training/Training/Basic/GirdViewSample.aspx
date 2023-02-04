@@ -12,17 +12,18 @@
         <div>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" 
                 DataKeyNames="EmployeeId" DataSourceID="SqlDataSource1" 
-                ForeColor="#333333" GridLines="None" AllowPaging="True" AllowSorting="True" PageSize="5" ViewStateMode="Disabled">
+                ForeColor="#333333" GridLines="None" AllowPaging="True" AllowSorting="True" PageSize="5" ViewStateMode="Disabled" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
-                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
-                    <asp:BoundField DataField="EmployeeId" HeaderText="社員ID" ReadOnly="True" SortExpression="EmployeeId" />
-                    <asp:BoundField DataField="Name" HeaderText="氏名" SortExpression="Name" />
-                    <asp:BoundField DataField="DepartmentId" HeaderText="課" SortExpression="DepartmentId" />
-                    <asp:BoundField DataField="Birthday" HeaderText="誕生日" SortExpression="Birthday" />
-                    <asp:BoundField DataField="Sales" HeaderText="当期売上高" SortExpression="Sales" />
+                    <asp:HyperLinkField DataNavigateUrlFields="EmployeeId" DataTextFormatString="~/Basic/FormViewSample.aspx?EmployeeId={0}" Text="詳細" />
+                    <asp:BoundField DataField="Name" HeaderText="氏名" SortExpression="Name" ReadOnly="True" />
+                    <asp:BoundField DataField="DepartmentId" HeaderText="課" SortExpression="DepartmentId" ReadOnly="True" />
+                    <asp:BoundField DataField="Birthday" HeaderText="誕生日" SortExpression="Birthday" ReadOnly="True" DataFormatString="{0:yyyy/MM/dd}" />
+                    <asp:BoundField DataField="Sales" HeaderText="当期売上高" SortExpression="Sales" DataFormatString="{0:C}" />
                     <asp:BoundField DataField="TelNo" HeaderText="電話番号" SortExpression="TelNo" />
-                    <asp:CheckBoxField DataField="Sex" HeaderText="性別" SortExpression="Sex" />
+                    <asp:CheckBoxField DataField="Sex" HeaderText="性別" SortExpression="Sex" ReadOnly="True" />
+                    <asp:CommandField ButtonType="Button" ShowEditButton="True" />
+                    <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />                    
                 </Columns>
                 <EditRowStyle BackColor="#7C6F57" />
                 <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
